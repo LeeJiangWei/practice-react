@@ -26,7 +26,7 @@ const App = () => {
             <ApprovalCard>
                 <CommentDetail
                     author={faker.name.lastName() + faker.name.findName()}
-                    time={faker.date.past().toISOString()}
+                    time={faker.date.past().toLocaleDateString()}
                     content={faker.lorem.sentences()}
                     avatar={faker.image.avatar()}
                 />
