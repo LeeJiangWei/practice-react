@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from "react-redux";
 import { fetchPostsAndUsers } from "../actions";
+import {fetchUser} from "../actions";
 // import { fetchPosts } from "../actions";
 
 import UserHeader from './UserHeader';
